@@ -1,0 +1,7 @@
+CREAT TABLE Product
+(
+p_id CHAR(5),
+P_namc  NVARCHAR  (10) NOT NULL
+Price  INT,
+PRIMARY KEY(P_id)
+)
